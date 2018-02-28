@@ -211,9 +211,18 @@
     <Compile Include="Migrations\201802280513219_MemberShipTypeNameRequired.Designer.cs">
       <DependentUpon>201802280513219_MemberShipTypeNameRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802280531454_Genre.cs" />
+    <Compile Include="Migrations\201802280531454_Genre.Designer.cs">
+      <DependentUpon>201802280531454_Genre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802280533011_AddMovieInfo.cs" />
+    <Compile Include="Migrations\201802280533011_AddMovieInfo.Designer.cs">
+      <DependentUpon>201802280533011_AddMovieInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -283,6 +292,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -322,6 +332,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802280513219_MemberShipTypeNameRequired.resx">
       <DependentUpon>201802280513219_MemberShipTypeNameRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802280531454_Genre.resx">
+      <DependentUpon>201802280531454_Genre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802280533011_AddMovieInfo.resx">
+      <DependentUpon>201802280533011_AddMovieInfo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
